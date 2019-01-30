@@ -1,0 +1,19 @@
+{
+  "appName": "Intranet PEI",
+
+  "logonPage":
+  {
+    "title": "Bienvenue sur l'intranet PEI",
+    "form":
+    {
+      "emailLabel": "Adresse Email",
+      "passwordLabel": "Mot De Passe",
+      "submitLabel": "Se Connecter"
+    }
+  },
+
+  "homePage":
+  {
+    "title": "Accueil"
+  }
+}
