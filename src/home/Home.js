@@ -1,27 +1,25 @@
 import React, { Component } from 'react';
-import { withCookies } from 'react-cookie';
-import './Logon.css';
+import './Home.css';
 
-import Form from './Form.js';
+import Navigation from '../navigation/Navigation';
 
 const strings = require('../strings.json');
 
 /****************************************************************************************************/
 
-class Logon extends Component
+class Home extends Component
 {
   componentDidMount()
   {
-    document.title = `${strings.appName} - ${strings.headerTitles.logonPage}`;
+    document.title = `${strings.appName} - ${strings.headerTitles.homePage}`;
   }
 
   render()
   {
     return(
-      <div className="mainBlock">
-        <div className="subBlock">
-          <Form login={this.props.login}></Form>
-        </div>
+      <div>
+        <Navigation login={this.props.login} />
+        <h1>Home</h1>
       </div>
     );
   }
@@ -29,4 +27,4 @@ class Logon extends Component
 
 /****************************************************************************************************/
 
-export default withCookies(Logon);
+export default Home;

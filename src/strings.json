@@ -1,19 +1,40 @@
 {
   "appName": "Intranet PEI",
 
+  "headerTitles":
+  {
+    "logonPage": "Connexion",
+    "homePage": "Accueil",
+    "accountPage": "Mon Compte",
+    "lostPage": "Page Introuvable"
+  },
+
+  "navigationBar":
+  {
+    "company": "pei",
+    "title": "intranet",
+    "menu":
+    {
+      "home": "Accueil",
+      "account": "Mon Compte",
+      "logout": "Déconnexion"
+    },
+    "accountMenu":
+    {
+      "myAccount": "Mon Compte",
+      "logout": "Déconnexion"
+    }
+  },
+
   "logonPage":
   {
     "title": "Bienvenue sur l'intranet PEI",
+
     "form":
     {
       "emailLabel": "Adresse Email",
       "passwordLabel": "Mot De Passe",
       "submitLabel": "Se Connecter"
     }
-  },
-
-  "homePage":
-  {
-    "title": "Accueil"
   }
 }

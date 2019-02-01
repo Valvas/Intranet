@@ -1,0 +1,32 @@
+/****************************************************************************************************/
+
+.navigationBar{ margin:0; background-color:#242423; }
+
+.navigationBarContainer{ padding:10px 40px 10px 40px; display:flex; flex-direction:row; justify-content:space-between; align-items:center; }
+
+.navigationBarLeftPart{ display:flex; flex-direction:row; justify-content:flex-start; align-items:center; }
+
+.navigationBarRightPart{ display:flex; flex-direction:row; justify-content:flex-end; align-items:center; }
+
+
+.navigationBarTitle{ width:100%; box-sizing:border-box; max-width:300px; display:flex; flex-direction:row; justify-content:flex-start; align-items:center; margin-right:10px; }
+
+.navigationBarTitleIcon{ font-family:roboto-light; font-size:2em; color:#4D7298; text-transform:uppercase; margin-right:5px; }
+
+.navigationBarTitleValue{ font-family:roboto-light; font-size:2em; color:#A2C78B; text-transform:uppercase; }
+
+
+.navigationBarMenu{ display:flex; flex-direction:row; justify-content:flex-start; color:#FFFFFF; margin:0 40px 0 40px; }
+
+.navigationBarMenuElement{ font-size:1.25em; margin:0 20px 0 20px; font-family:roboto-regular; cursor:pointer; color:#FFFFFF; text-decoration:none; width:max-content; }
+
+.navigationBarMenuElement:hover{ color:#4D7298; }
+
+
+.navigationBarAccount{ cursor:pointer; }
+
+.navigationBarAccountEmail{ color:#FFFFFF; font-family:roboto-regular; }
+
+.navigationBarAccount:hover .navigationBarAccountEmail{ color:#A2C78B; }
+
+/****************************************************************************************************/

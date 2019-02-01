@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withCookies } from 'react-cookie';
 import './Form.css';
 
 const strings = require('../strings.json');
@@ -45,7 +46,9 @@ class Form extends Component
     .then(
     (result) =>
     {
-      console.log(result);
+      this.props.cookies.set('peiauth', result.token, { maxAge: (24 * 60 * 60) });
+
+      this.props.login(true);
     },
     (error) =>
     {
@@ -56,4 +59,4 @@ class Form extends Component
 
 /****************************************************************************************************/
 
-export default Form;
+export default withCookies(Form);
